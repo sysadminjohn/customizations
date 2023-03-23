@@ -2,19 +2,20 @@
 # Step2: Choose a variant (colors? no colors?) and only choose one PS1 line
 # Step3: do a 'source ~/.bashrc' to apply settings immediately, or log out and back in
 
-RED='\033[0;31m'
-NC='\033[0m'
-VIOLET='\033[0;35m'
-DARK_GREY='\033[1;30m'
-GREEN='\033[0;32m'
-CYAN='\033[0;36m'
-DARK_GREEN='\033[0;32m'
-GRAY='\033[0;37m'
-LIGHT_GRAY='\033[0;37m'
+RED='\[\033[0;31m\]'
+VIOLET='\[\033[0;35m\]'
+DARK_GREY='\[\033[1;30m\]'
+GREEN='\[\033[0;32m\]'
+CYAN='\[\033[0;36m\]'
+DARK_GREEN='\[\033[0;32m\]'
+GRAY='\[\033[0;37m\]'
+LIGHT_GRAY='\[\033[0;37m\]'
+NC='\[\033[0m\]'
+
 
 
 ################################################################
-## Colored (may cosmetically and temporarily bug the arrow-back history)
+## Colors
 
 
 # normal users:
@@ -26,7 +27,7 @@ PS1="${GRAY}┌───[${RED}\u@\h${NC}] ${VIOLET}\w\n${GRAY}└─# ${NC}"
    
    
 ################################################################
-## No colors (less readable but won't bug out arrow-back history)
+## No colors 
 
 
 # normal users (monochrome variant):
