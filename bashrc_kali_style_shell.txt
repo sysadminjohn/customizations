@@ -1,4 +1,6 @@
-# Add this to .bashrc in /root/.bashrc or the .bashrc in user home folders, then do a 'source ~/.bashrc' to apply settings immediately, or log out and back in
+# Step1: Add these color variables to .bashrc in /root/.bashrc or the .bashrc in user home folders
+# Step2: Choose a variant (colors? no colors?) and only choose one PS1 line
+# Step3: do a 'source ~/.bashrc' to apply settings immediately, or log out and back in
 
 RED='\033[0;31m'
 NC='\033[0m'
@@ -10,4 +12,28 @@ DARK_GREEN='\033[0;32m'
 GRAY='\033[0;37m'
 LIGHT_GRAY='\033[0;37m'
 
+
+################################################################
+## Colored (may cosmetically and temporarily bug the arrow-back history)
+
+
+# normal users:
 PS1="${GRAY}┌───[${GREEN}\u@\h${GRAY}] ${VIOLET}\w\n${GRAY}└─$ ${NC}"
+
+# root:
+PS1="${GRAY}┌───[${RED}\u@\h${NC}] ${VIOLET}\w\n${GRAY}└─# ${NC}"
+   
+   
+   
+################################################################
+## No colors (less readable but won't bug out arrow-back history)
+
+
+# normal users (monochrome variant):
+PS1="┌───[\u@\h]\w\n└─$ "
+
+# root (monochrome variant):
+PS1="┌───[\u@\h]\w\n└─# "
+
+
+   
