@@ -1,3 +1,5 @@
+# Add this to .bashrc in /root/.bashrc or the .bashrc in user home folders, then do a 'source ~/.bashrc' to apply settings immediately, or log out and back in
+
 RED='\033[0;31m'
 NC='\033[0m'
 VIOLET='\033[0;35m'
