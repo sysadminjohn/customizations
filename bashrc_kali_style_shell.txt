@@ -10,4 +10,4 @@ DARK_GREEN='\033[0;32m'
 GRAY='\033[0;37m'
 LIGHT_GRAY='\033[0;37m'
 
-PS1="${GREEN}┌───[${GREEN}\u@${RED}\h${GREEN}] ${VIOLET}\w\n${GREEN}└─$ ${NC}"
+PS1="${GRAY}┌───[${GREEN}\u@\h${GRAY}] ${VIOLET}\w\n${GRAY}└─$ ${NC}"
