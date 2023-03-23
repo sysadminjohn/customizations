@@ -1,0 +1,11 @@
+RED='\033[0;31m'
+NC='\033[0m'
+VIOLET='\033[0;35m'
+DARK_GREY='\033[1;30m'
+GREEN='\033[0;32m'
+CYAN='\033[0;36m'
+DARK_GREEN='\033[0;32m'
+GRAY='\033[0;37m'
+LIGHT_GRAY='\033[0;37m'
+
+PS1="${GREEN}┌───[${GREEN}\u@${RED}\h${GREEN}] ${VIOLET}\w\n${GREEN}└─$ ${NC}"
