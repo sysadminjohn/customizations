@@ -1,7 +1,7 @@
 # Step1: Add these color variables to .bashrc in /root/.bashrc or the .bashrc in user home folders
 # Step2: Choose one PS1 line to use
 # Step3: do a 'source ~/.bashrc' to apply settings immediately, or log out and back in
-# Step4: customize further with your own taste
+# Step4: customize the PS1 string further to your own taste (repeat step 3 every time you edit it)
 
 # Custom colors (escaping with \ was necessary to prevent a cosmetic mis-alignment when using arrow-up key bash history)
 RED='\[\033[0;31m\]'
