@@ -1,6 +1,8 @@
 # Step1: Add these color variables to .bashrc in /root/.bashrc or the .bashrc in user home folders
-# Step2: Choose a variant (colors? no colors?) and only choose one PS1 line
+# Step2: Choose a variant one PS1 line to use
 # Step3: do a 'source ~/.bashrc' to apply settings immediately, or log out and back in
+# Step4: customize further with your own taste
+
 
 RED='\[\033[0;31m\]'
 VIOLET='\[\033[0;35m\]'
@@ -14,27 +16,18 @@ NC='\[\033[0m\]'
 
 
 
-################################################################
-## Colors
+# normal users, style 1:
+PS1="${GREEN}┌───\u@\h ${VIOLET}\w\n${GREEN}└─$ ${NC}"
 
-
-# normal users:
+# normal users, style 2 (brackets):
 PS1="${GRAY}┌───[${GREEN}\u@\h${GRAY}] ${VIOLET}\w\n${GRAY}└─$ ${NC}"
 
-# root:
+
+# root, style 1:
+PS1="${RED}┌───\u@\h${NC} ${VIOLET}\w\n${RED}└─# ${NC}"
+
+# root, style 2 (brackets):
 PS1="${GRAY}┌───[${RED}\u@\h${NC}] ${VIOLET}\w\n${GRAY}└─# ${NC}"
-   
-   
-   
-################################################################
-## No colors 
-
-
-# normal users (monochrome variant):
-PS1="┌───[\u@\h]\w\n└─$ "
-
-# root (monochrome variant):
-PS1="┌───[\u@\h]\w\n└─# "
-
-
+     
+     
    
