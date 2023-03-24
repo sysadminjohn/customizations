@@ -3,7 +3,7 @@
 # Step3: do a 'source ~/.bashrc' to apply settings immediately, or log out and back in
 # Step4: customize further with your own taste
 
-
+# Custom colors (escaping with \ was necessary to prevent a cosmetic mis-alignment when using arrow-up key bash history)
 RED='\[\033[0;31m\]'
 VIOLET='\[\033[0;35m\]'
 DARK_GREY='\[\033[1;30m\]'
@@ -12,7 +12,9 @@ CYAN='\[\033[0;36m\]'
 DARK_GREEN='\[\033[0;32m\]'
 GRAY='\[\033[0;37m\]'
 LIGHT_GRAY='\[\033[0;37m\]'
-NC='\[\033[0m\]'                   # No color (return to default terminal text color)
+
+# No color (return to default terminal text color)
+NC='\[\033[0m\]'                  
 
 
 
