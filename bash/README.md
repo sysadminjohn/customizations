@@ -12,8 +12,14 @@ This is a shell customization inspired by the Kali Linux zsh config, re-made in 
 
 ---
 
-To return to default settings, comment or remove all the lines you just added and leave PS1 as is:
+To return to default settings, comment or remove all the lines you just added to `.bashrc` and leave `PS1` as is:
 
+For normal users:
 ```
-PS1="[\u@\h \W]\$"
+PS1="[\u@\h \W]\$ "
 ```
+For root user:
+```
+PS1="[\u@\h \W]\# "
+```
+
