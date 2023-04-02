@@ -11,3 +11,9 @@ This is a shell customization inspired by the Kali Linux zsh config, re-made in 
 **Step4 (optional):** Customize the PS1 string further to your own taste (repeat step 3 every time you edit it)
 
 ---
+
+To return to default settings, comment or remove all the lines you just added and leave PS1 as is:
+
+```
+PS1="[\u@\h \W]\$"
+```
