@@ -1,0 +1,20 @@
+// ~/.config/Code/User/settings.json
+
+{
+    "window.titleBarStyle": "custom",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Default Dark+ Experimental",
+    "telemetry.telemetryLevel": "off",
+    "explorer.confirmDelete": false,
+    "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#101010",
+            "sideBar.background": "#101010",
+            "activityBar.background": "#101010",
+            "editor.background": "#101010"
+    },
+    "editor.tokenColorCustomizations": {
+        "variables": "#339988"
+    }
+}
