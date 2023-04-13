@@ -1,5 +1,6 @@
 // ~/.config/Code/User/settings.json
-// for a quick edit of amount of darkness, to relieve some contrast if too harsh, replace all #090909 occurrences with something like #141414 or use the color picker preview
+// For a quick edit of amount of darkness, to relieve some contrast if too harsh, replace all #090909 occurrences with something like #141414 or use the color picker preview
+// Opening this file with Visual Studio Code directly will give a color picker for each value within the editor
 
 {
     "window.titleBarStyle": "custom",
