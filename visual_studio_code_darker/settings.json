@@ -1,4 +1,5 @@
 // ~/.config/Code/User/settings.json
+// for a quick edit of amount of darkness or relieve some contrast if too harsh, replace all #090909 occurrences with something like #141414 or use the color picker preview
 
 {
     "window.titleBarStyle": "custom",
