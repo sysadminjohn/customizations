@@ -9,7 +9,10 @@
     "telemetry.telemetryLevel": "off",
     "explorer.confirmDelete": false,
     "workbench.colorCustomizations": {
+            "tab.activeBackground": "#151515",
+            "tab.inactiveBackground": "#090909",
             "titleBar.activeBackground": "#090909",
+            "titleBar.inactiveBackground": "#090909",
             "sideBar.background": "#090909",
             "activityBar.background": "#090909",
             "statusBar.background": "#090909",
