@@ -15,6 +15,7 @@
             "titleBar.activeBackground": "#090909",
             "titleBar.inactiveBackground": "#090909",
             "sideBar.background": "#090909",
+            "sideBarSectionHeader.background": "#090909",
             "activityBar.background": "#090909",
             "statusBar.background": "#090909",
             "editor.foreground": "#11e27a",
